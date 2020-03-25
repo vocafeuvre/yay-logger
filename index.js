@@ -5,7 +5,7 @@
  * @param {string} text - Text to be logged.
  */
 function formatLog(tag, text) {
-    return `[${new Date().toLocaleString()}] ${tag}: ${text}`
+    return `[${new Date().toLocaleString()}, ${Date.now()}] ${tag}: ${text}`
 }
 
 /**
